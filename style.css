@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Code Pro", monospace;
+}
+body {
+  /* background: url(/images/bg.jpg); */
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 130%;
+}
+#navbar {
+  display: flex;
+  background: rgb(252, 93, 93);
+  margin-top: 7px;
+  position: relative;
+}
+#logo {
+  height: 10vh;
+  width: 20vw;
+  margin-left: 7%;
+  margin-right: 7%;
+  background-color: #fff;
+  /* border-radius: -13px; */
+}
+#logo img {
+  height: 100%;
+  width: 100%;
+}
+#navbar #nav-list {
+  display: flex;
+}
+.list-items {
+  display: inline-block;
+  margin: auto;
+}
+#navbar #nav-list .list-items a {
+  margin: auto;
+  padding: 1em;
+  margin: 0.3em;
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(251, 254, 255);
+}
